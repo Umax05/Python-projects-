@@ -11,6 +11,4 @@ A basic command-line calculator application built with Python that performs addi
 - **User-Friendly Interface:** Menu-driven interface for easy operation selection.
 - **Input Validation:** Ensures users enter valid numerical values.
 
-## How to Use
 
-1. **Clone the Repository:**
