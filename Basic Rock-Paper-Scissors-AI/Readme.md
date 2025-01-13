@@ -1,4 +1,4 @@
-# Rock-Paper-Scissors Python Game
+# Rock-Paper-Scissors game
 
 A simple command-line Rock-Paper-Scissors game where you can play against the computer.
 
