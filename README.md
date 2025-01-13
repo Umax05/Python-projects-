@@ -22,5 +22,6 @@ Here’s a list of the projects included in this repository. Each project has it
 
 7.-Word counter
 
+8.-Basic Rock-Paper-Scissors-AI
 
 
