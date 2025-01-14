@@ -12,7 +12,7 @@ Here’s a list of the projects included in this repository. Each project has it
 
 3.-Python Calculator
 
-4.-Random Password Generator
+4.-
 
 5.-Simple to-do- List
 
