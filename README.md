@@ -24,4 +24,4 @@ Here’s a list of the projects included in this repository. Each project has it
 
 8.-Basic Rock-Paper-Scissors-AI
 
-
+9.-Dice-rolling-simulator
