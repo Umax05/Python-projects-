@@ -1,8 +1,6 @@
-# Python Low-Difficulty Projects
+# Python Projects
 
-Welcome to the **Python Low-Difficulty Projects** repository! 🎉 This collection is dedicated to beginner-friendly Python projects designed to help aspiring developers practice and enhance their coding skills. 
-
-Each project is intended to be completed within a day, making it perfect for those aiming to build a consistent coding habit.
+Welcome to the **Python Projects** repository! 🎉 This collection is dedicated to Python projects designed to help aspiring developers practice and enhance their coding skills. 
 
 ## Projects
 
