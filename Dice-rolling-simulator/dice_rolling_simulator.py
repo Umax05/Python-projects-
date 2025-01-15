@@ -17,26 +17,21 @@ def dice_rolling_simulator():
     
     while True:
         try:
-            # Get the number of dice from the user
             num_dice_input = input(f"Enter the number of dice to roll (default {DEFAULT_NUM_DICE}): ")
             num_dice = int(num_dice_input) if num_dice_input else DEFAULT_NUM_DICE
             
-            # Get the number of sides from the user
             sides_input = input(f"Enter the number of sides per die (default {DEFAULT_SIDES}): ")
             sides = int(sides_input) if sides_input else DEFAULT_SIDES
         except ValueError:
             print("Please enter valid integers for number of dice and sides.\n")
             continue
         
-        # Roll the dice and calculate the total
         results = roll_dice(num_dice, sides)
         total = sum(results)
         
-        # Display the results
         print(f"\nYou rolled: {results}")
         print(f"Total: {total}\n")
         
-        # Ask the user if they want to roll again
         again = input("Do you want to roll again? (y/n): ").lower()
         if again != 'y':
             break
