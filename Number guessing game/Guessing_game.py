@@ -10,7 +10,7 @@ def guessing_game():
             guess = input("Enter your guess (or 'q' to quit): ")
             if guess.lower() == 'q':
                 print("Thanks for playing! Goodbye!")
-                return  # Exit the function and end the game
+                return  
 
             try:
                 guess = int(guess)
@@ -25,9 +25,8 @@ def guessing_game():
                 print("Too high! Try again.")
             else:
                 print(f"Congratulations! You guessed the number in {attempts} attempts.")
-                break  # Number guessed correctly
+                break  
 
-        # Ask if the user wants to play again
         play_again = input("Do you want to play again? (y/n): ").lower()
         if play_again != 'y':
             print("Thanks for playing! Goodbye!")
