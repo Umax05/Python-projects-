@@ -38,7 +38,6 @@ def count_characters(text):
     Returns:
         int: The character count.
     """
-    # Remove spaces to count characters only
     return len(text.replace(" ", ""))
 
 def count_sentences(text):
@@ -66,7 +65,6 @@ def main():
     print("=== Word Counter ===")
     print("Enter your text below. When you're done, press Enter on an empty line.")
     
-    # Collect multiline input from the user
     lines = []
     while True:
         line = input()
@@ -80,10 +78,8 @@ def main():
         print("No text entered. Exiting the Word Counter.")
         return
     
-    # Count sentences before cleaning the text
     sentences = count_sentences(raw_text)
     
-    # Clean the text for accurate word and character count
     cleaned_text = clean_text(raw_text)
     
     words = count_words(cleaned_text)
