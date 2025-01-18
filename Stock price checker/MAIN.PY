@@ -13,7 +13,6 @@ def get_stock_price(ticker_symbols):
             day_low = data.get('dayLow', 'N/A')
             volume = data.get('volume', 'N/A')
             
-            # Calculate percentage change
             if previous_close != 'N/A' and current_price != 'N/A':
                 percent_change = ((current_price - previous_close) / previous_close) * 100
                 percent_change = round(percent_change, 2)
@@ -34,7 +33,6 @@ def get_stock_price(ticker_symbols):
         except Exception as e:
             print(f"Error fetching data for {symbol.upper()}: {e}")
     
-    # Display all stock data
     if stock_data:
         df = pd.DataFrame(stock_data)
         print(df.to_string(index=False))
@@ -52,7 +50,6 @@ def main():
             print("Please enter at least one ticker symbol.")
             continue
         else:
-            # Split input into list and remove extra spaces
             ticker_list = [ticker.strip().upper() for ticker in tickers.split(',') if ticker.strip() != '']
             if not ticker_list:
                 print("No valid ticker symbols entered.")
